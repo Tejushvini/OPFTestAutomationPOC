@@ -12,4 +12,4 @@ Feature: User Registration
     Then the user sees the OTP screen
     Examples:
       | name | surname | cellNumber | email |
-      | Tej  | Beesoon | 0877145728 | opfautomation1@yopmail.com |
+      | Tej  | Beesoon | 0877145728 | opfautomation2@yopmail.com |
