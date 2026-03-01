@@ -17,9 +17,9 @@ public class ExtendReportManager {
         sparkReporter = new ExtentSparkReporter(new File(reportFilePath));
         extent.attachReporter(sparkReporter);
 
-        sparkReporter.config().setDocumentTitle("Ndosi Automation Test Report Title");
+        sparkReporter.config().setDocumentTitle("Tej Automation Test Report Title");
         sparkReporter.config().setTheme(Theme.DARK);
-        sparkReporter.config().setReportName("Ndosi Automation Report");
+        sparkReporter.config().setReportName("Tej Automation Report");
 
         extent.setSystemInfo("OS", System.getProperty("os.name"));
         extent.setSystemInfo("Execution Machine", System.getProperty("user.name"));
